@@ -3,10 +3,10 @@
   xsi:schemaLocation='http://www.liquibase.org/xml/ns/dbchangelog
     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd'>
 
-	<include file="db-changelog-1.0.xml" />
-	<include file="db-changelog-1.1.xml" />
-	<include file="db-changelog-1.2.xml" />
-	<include file="db-changelog-1.3.xml" />
-	<include file="db-changelog-1.4.xml" />
-	<include file="db-changelog-1.5.xml" />
+	<include file="/var/lib/jenkins/workspace/petclinic/db-changelog-1.0.xml" />
+	<include file="/var/lib/jenkins/workspace/petclinic/db-changelog-1.1.xml" />
+	<include file="/var/lib/jenkins/workspace/petclinic/db-changelog-1.2.xml" />
+	<include file="/var/lib/jenkins/workspace/petclinic/db-changelog-1.3.xml" />
+	<include file="/var/lib/jenkins/workspace/petclinic/db-changelog-1.4.xml" />
+	<include file="/var/lib/jenkins/workspace/petclinic/db-changelog-1.5.xml" />
 </databaseChangeLog>
