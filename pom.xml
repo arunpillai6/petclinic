@@ -18,26 +18,6 @@
             <url>http://www.xebialabs.com</url>
             <build>
 		<finalName>PetClinic</finalName>
-		<plugins>
-		    <plugin>
-			<groupId>org.liquibase</groupId>
-			<artifactId>liquibase-maven-plugin</artifactId>
-			<version>3.0.5</version>
-			<configuration>
-			    <propertyFile>${basedir}/liquibase.properties</propertyFile>
-			    <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
-			    <driver>com.mysql.jdbc.Driver</driver>
-			</configuration>
-			<executions>
-			    <execution>
-				<phase>process-resources</phase>
-				<goals>
-				    <goal>update</goal>
-				</goals>
-			    </execution>
-			</executions>
-		    </plugin>
-		</plugins>
 
             </build>
             <dependencies>
